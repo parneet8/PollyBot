@@ -1,0 +1,93 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Poly","I'm Poly","I'm Poly your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["GTBIT offers \n1. Computer Science engineering\n2. Information Technology\n3. Electrical Engineering\n4. Artificial Intelligence with Machine Learning\n5. Artificial Intelligence with Data Science "]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be CSE or IT course", "how long will it take to complete IT or CSE course"],
+  "responses": ["All the courses in our college have a duration of 4 years"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college."],
+  "responses": ["GTBIT is located in Rajouri Garden"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["Students are given admission based on their JEE rank,Each year there is a new cutoff based on the overall rank of all the students."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be 6 or 7 classes per day. Each class will be of 1 hour."]
+  },
+
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["Sessional exams are held halfway through the semester and final exams are held at the end of the semester"]
+  },
+
+  {"tag": "assignments",
+  "patterns": ["Are there assignments?","How many Assignments we get every semester","How many marks does the assignment carry"],
+  "responses": ["Assignmenets are given throught out the semester and carry few marks and have to be submitted before the deadline"]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 7:00 am to 6:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Fest,. \n Also our college has basketball court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["All courses have an approximate fees of around 1,20,000"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk to you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
+
